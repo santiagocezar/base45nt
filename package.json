@@ -1,0 +1,40 @@
+{
+  "name": "base45nt",
+  "version": "0.1.0",
+  "description": "A Typescript implementation of the Base45 encoding as described in RFC 9285",
+  "type": "module",
+  "types": "./lib/esm/index.d.ts",
+  "main": "./lib/esm/index.js",
+  "exports": {
+    ".": {
+      "require": "./lib/cjs/index.js",
+      "import": "./lib/esm/index.js",
+      "types": "./lib/esm/index.d.ts"
+    }
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "tsc && tsc --module commonjs --outDir lib/cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santiagocezar/base45nt.git"
+  },
+  "keywords": [
+    "base45"
+  ],
+  "author": "Santiago Cézar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/santiagocezar/base45nt/issues"
+  },
+  "homepage": "https://github.com/santiagocezar/base45nt#readme",
+  "devDependencies": {
+    "jest": "^29.4.3"
+  },
+  "dependencies": {
+    "@types/jest": "^29.4.0",
+    "ts-jest": "^29.0.5",
+    "typescript": "^4.9.5"
+  }
+}
