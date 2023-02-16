@@ -1,6 +1,6 @@
 {
   "name": "base45nt",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Typescript implementation of the Base45 encoding as described in RFC 9285",
   "type": "module",
   "types": "./lib/esm/index.d.ts",
