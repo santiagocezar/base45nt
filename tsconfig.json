@@ -1,9 +1,10 @@
 {
   "include": [
-    "./src"
+    "./src",
+    "tests"
   ],
   "exclude": [
-    "./src/tests"
+    "tests"
   ],
   "compilerOptions": {
     "target": "es2016",
